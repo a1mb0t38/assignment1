@@ -31,6 +31,10 @@
     font-weight: bold;
     color: #000000;
 }
+.nav-bar ul a:hover{
+    transform: scale(0.99);
+}
+
 
 .nav-bar .button{
     margin-top: 24px;
@@ -43,4 +47,127 @@
     font-weight: 600;
     color: white;
     background-color: #469165;
+}
+.nav-bar .button:hover{
+    cursor: pointer;
+    transform: scale(0.99);
+}
+/* banner */
+.banner{
+    border: 1px solid black;
+    height: 674px;
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .banner-container{
+    max-width: 1360px;
+    height: 379px;
+    margin: 0 auto;
+    margin-top: 115px;
+    text-align: center;
+}
+.banner-container .early-access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    padding-right: 12px;
+    /* padding-left: 34px; */
+    background-color: white;
+    width: 229px;
+    height: 35px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 1000px;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 6px;
+}
+/* dot maker */
+.banner-container .early-access .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #469165;
+    border: 2px solid #a8d5ba;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.banner-container .early-access:hover{
+    cursor: pointer;
+    transform: scale(0.99);
+}
+
+.banner-container .banner-info{
+    margin-top: 16px;
+}
+
+.banner-container .banner-info .first-h1{
+    color: white;
+    font-size: 4em;
+}
+.banner-container .banner-info .second-h1{
+    color: #30B868;
+    font-size: 4.10em;
+    margin-bottom: 16px;
+}
+
+.banner-container .banner-info p{
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+}
+
+.banner-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 32px;
+    gap: 16px;
+}
+
+.banner-container ul .first{
+    text-decoration: none;
+    color: white;
+    background-color: #469165;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner-container ul .first:hover{
+    transform: scale(0.99);
+}
+
+.banner-container ul .first img{
+    margin-right: 16px;
+}
+
+.banner-container ul .second{
+    text-decoration: none;
+    color: white;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.banner-container ul .second i{
+    margin-left: 16px;
+    margin-right: 10px;
+}
+.banner-container ul .second:hover{
+    transform: scale(0.99);
 }
