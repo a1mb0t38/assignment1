@@ -280,6 +280,7 @@
 .solution-container .solution-image{
     max-width: 600px;
     height: 600px;
+    border-radius: 12px;
 }
 
 .solution-container .solution-info h4{
@@ -332,6 +333,7 @@
     text-align: center;
     background-color: #F7F6F2;
     margin-bottom: 120px;
+    border-radius: 12px;
 }
 
 .challenge-sec .challenge-container h2{
