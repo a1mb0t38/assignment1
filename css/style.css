@@ -7,6 +7,8 @@
     padding: 0;
 }
 
+/* header section start */
+
 .nav-bar{
     display: flex;
     background-color: white;
@@ -171,6 +173,10 @@
 .banner-container ul .second:hover{
     transform: scale(0.99);
 }
+/* banner section end */
+
+
+/* notes section start */
 
 .notes{
     height: 448px;
@@ -251,6 +257,11 @@
     padding-left: 24px;
     padding-right: 24px;
 }
+/* note section end */
+
+
+
+/* Big brain section start */
 
 .solution{
     height: 938px;
@@ -305,6 +316,10 @@
     gap: 6px;
     margin-bottom: 16px;
 }
+/* big brain section end */
+
+
+/* challenge section start */
 
 .challenge-sec{
     height: 506px;
@@ -370,6 +385,10 @@
     line-height: 20px;
     color: #627382;
 }
+/* challenge section end */
+
+
+/* footer section start */
 
 .footer-sec{
     height: 348px;
@@ -427,3 +446,4 @@
     text-align: center;
     margin-bottom: 30px;
 }
+/* footer section end */
